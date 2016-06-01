@@ -1,0 +1,15 @@
+{
+    //https://go.microsoft.com/fwlink/?LinkId=733558
+    "version": "0.1.0",
+    "command": "tsc",
+    "isShellCommand": true,
+    "args": [
+        "--target", "ES5",
+        "--outFile", "./js/app.js",
+        "--module", "amd",
+        "--sourceMap", "--watch",
+        "app.ts"        
+     ],
+    "showOutput": "always",
+    "problemMatcher": "$tsc"
+}
